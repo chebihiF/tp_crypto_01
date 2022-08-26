@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97fc36b3-91ca-4092-a2bb-40f149cc1d98" name="Changes" comment="add Symmetric class">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="97fc36b3-91ca-4092-a2bb-40f149cc1d98" name="Changes" comment="final version symmetric">
+      <change afterPath="$PROJECT_DIR$/src/Asymmetric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Symmetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symmetric.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,14 @@
     "full.screen.before.presentation.mode": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Symmetric">
+  <component name="RunManager" selected="Application.Asymmetric">
+    <configuration name="Asymmetric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Asymmetric" />
+      <module name="tp_crypto_01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Crypto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Crypto" />
       <module name="tp_crypto_01" />
@@ -75,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Asymmetric" />
         <item itemvalue="Application.Symmetric" />
         <item itemvalue="Application.CryptoHmacPassword" />
         <item itemvalue="Application.CryptoWithSalt" />
@@ -105,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661509269572</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="final version symmetric">
+      <created>1661510392630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661510392630</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +136,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final version" />
     <MESSAGE value="add Symmetric class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Symmetric class" />
+    <MESSAGE value="final version symmetric" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version symmetric" />
   </component>
 </project>
