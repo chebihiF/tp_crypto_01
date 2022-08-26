@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97fc36b3-91ca-4092-a2bb-40f149cc1d98" name="Changes" comment="final version symmetric">
-      <change afterPath="$PROJECT_DIR$/src/Asymmetric.java" afterDir="false" />
+    <list default="true" id="97fc36b3-91ca-4092-a2bb-40f149cc1d98" name="Changes" comment="final version Asymmetric">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Asymmetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Asymmetric.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661510392630</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final version Asymmetric">
+      <created>1661515356209</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661515356209</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +144,7 @@
     <MESSAGE value="final version" />
     <MESSAGE value="add Symmetric class" />
     <MESSAGE value="final version symmetric" />
-    <option name="LAST_COMMIT_MESSAGE" value="final version symmetric" />
+    <MESSAGE value="final version Asymmetric" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version Asymmetric" />
   </component>
 </project>

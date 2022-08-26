@@ -11,6 +11,27 @@ public class Asymmetric {
             KeyPair keyPair = generateRSAKeyPair();
             System.out.println("Public key : "+hexString(keyPair.getPublic().getEncoded()));
             System.out.println("Private key : "+hexString(keyPair.getPrivate().getEncoded()));
+            String plainText = "This is the plainText message I want to Encrypt using RSA";
+            try {
+                System.out.println("\n\n");
+                System.out.println("Message : "+plainText);
+                byte[] cipherText = do_RSAEncryption(plainText, keyPair.getPrivate());
+                System.out.println("Result : "+hexString(cipherText));
+                System.out.println();
+                byte[] plainTextBytes = do_RSADecryption(cipherText, keyPair.getPublic());
+                System.out.println("Message : "+new String(plainTextBytes));
+
+
+            } catch (NoSuchPaddingException e) {
+                throw new RuntimeException(e);
+            } catch (InvalidKeyException e) {
+                throw new RuntimeException(e);
+            } catch (IllegalBlockSizeException e) {
+                throw new RuntimeException(e);
+            } catch (BadPaddingException e) {
+                throw new RuntimeException(e);
+            }
+
         } catch (NoSuchAlgorithmException e) {
             throw new RuntimeException(e);
         }
